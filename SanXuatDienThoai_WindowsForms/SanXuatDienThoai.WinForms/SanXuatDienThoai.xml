@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="SanXuatDienThoai.xsl"?>
+<sanxuatdienthoai xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="SanXuatDienThoai.xsd">
+  <thoigian nam="2021">
+    <congty ten="Samsung">
+      <xuatxuong>272.1</xuatxuong>
+      <thiphan>20.0</thiphan>
+    </congty>
+    <congty ten="Apple">
+      <xuatxuong>235.8</xuatxuong>
+      <thiphan>17.3</thiphan>
+    </congty>
+    <congty ten="Xiaomi">
+      <xuatxuong>191</xuatxuong>
+      <thiphan>14</thiphan>
+    </congty>
+  </thoigian>
+  <thoigian nam="2022">
+    <congty ten="Samsung">
+      <xuatxuong>260.9</xuatxuong>
+      <thiphan>21.6</thiphan>
+    </congty>
+    <congty ten="Apple">
+      <xuatxuong>226.4</xuatxuong>
+      <thiphan>18.8</thiphan>
+    </congty>
+    <congty ten="Xiaomi">
+      <xuatxuong>153.1</xuatxuong>
+      <thiphan>12.7</thiphan>
+    </congty>
+  </thoigian>
+</sanxuatdienthoai>

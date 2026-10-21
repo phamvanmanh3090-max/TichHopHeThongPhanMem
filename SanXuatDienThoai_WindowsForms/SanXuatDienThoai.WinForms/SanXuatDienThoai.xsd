@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="NamType">
+    <xs:restriction base="xs:integer">
+      <xs:minExclusive value="2019"/>
+      <xs:maxExclusive value="2024"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="TenCongTyType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Samsung"/>
+      <xs:enumeration value="Apple"/>
+      <xs:enumeration value="Xiaomi"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="SoDuongType">
+    <xs:restriction base="xs:decimal">
+      <xs:minExclusive value="0"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="ThiPhanType">
+    <xs:restriction base="xs:decimal">
+      <xs:minExclusive value="0"/>
+      <xs:maxExclusive value="100"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:element name="sanxuatdienthoai">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="thoigian" minOccurs="1" maxOccurs="2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="congty" minOccurs="1" maxOccurs="5">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="xuatxuong" type="SoDuongType"/>
+                    <xs:element name="thiphan" type="ThiPhanType"/>
+                  </xs:sequence>
+                  <xs:attribute name="ten" type="TenCongTyType" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="nam" type="NamType" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

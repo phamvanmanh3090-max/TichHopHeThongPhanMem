@@ -1,9 +1,10 @@
 # Bài dự báo thời tiết XML/XSD/XSLT
 
-Repository có hai phiên bản:
+Repository có các bài Visual Studio sau:
 
 - `DuBaoThoiTiet.sln`: ứng dụng Console.
 - `WindowsForms/DuBaoThoiTiet_WindowsForms.sln`: ứng dụng Windows Forms có giao diện, nút kiểm tra XML và vùng hiển thị kết quả.
+- `SanXuatDienThoai_WindowsForms/SanXuatDienThoai_WindowsForms.sln`: bài sản xuất điện thoại theo đề kiểm tra mới, chạy bằng Windows Forms.
 
 ## Chạy bản Windows Forms
 

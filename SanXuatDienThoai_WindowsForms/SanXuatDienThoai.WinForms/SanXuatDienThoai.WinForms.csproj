@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="SanXuatDienThoai.xml" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="SanXuatDienThoai.xsd" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="SanXuatDienThoai.xsl" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="S.png" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="A.png" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="X.png" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>
