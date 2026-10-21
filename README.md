@@ -1,4 +1,17 @@
-# Chạy bài trong Visual Studio
+# Bài dự báo thời tiết XML/XSD/XSLT
+
+Repository có hai phiên bản:
+
+- `DuBaoThoiTiet.sln`: ứng dụng Console.
+- `WindowsForms/DuBaoThoiTiet_WindowsForms.sln`: ứng dụng Windows Forms có giao diện, nút kiểm tra XML và vùng hiển thị kết quả.
+
+## Chạy bản Windows Forms
+
+1. Mở `WindowsForms/DuBaoThoiTiet_WindowsForms.sln` bằng Visual Studio 2022.
+2. Nếu Visual Studio hỏi workload, cài **.NET desktop development**.
+3. Nhấn `F5` hoặc `Ctrl+F5` để chạy.
+
+## Chạy bản Console
 
 1. Mở file `DuBaoThoiTiet.sln` bằng Visual Studio 2022.
 2. Nếu Visual Studio hỏi workload, cài **.NET desktop development**.

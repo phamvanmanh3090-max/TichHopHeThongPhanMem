@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="MaKhuVuc">
+    <xs:restriction base="xs:string">
+      <xs:length value="6"/>
+      <xs:pattern value="[0-9]{6}"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="KieuThoiTiet">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Nắng"/>
+      <xs:enumeration value="Mây"/>
+      <xs:enumeration value="Mưa"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="NhietDo">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="10"/>
+      <xs:maxInclusive value="50"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="dubaothoitiet">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="thoitiet" minOccurs="1" maxOccurs="30">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="khuvuc" minOccurs="1" maxOccurs="3">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="kieuthoitiet" type="KieuThoiTiet"/>
+                    <xs:element name="nhietdocaonhat" type="NhietDo"/>
+                    <xs:element name="nhietdothapnhat" type="NhietDo"/>
+                  </xs:sequence>
+                  <xs:attribute name="ma" type="MaKhuVuc" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="ngay" type="xs:date" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
