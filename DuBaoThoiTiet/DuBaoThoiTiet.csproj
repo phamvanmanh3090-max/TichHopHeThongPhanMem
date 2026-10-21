@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="DuBaoThoiTiet.xml" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="DuBaoThoiTiet.xsd" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="DuBaoThoiTiet.xsl" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="1.png" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="2.png" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="3.png" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>
