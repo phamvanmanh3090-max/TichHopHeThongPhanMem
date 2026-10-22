@@ -5,6 +5,7 @@ Repository có các bài Visual Studio sau:
 - `DuBaoThoiTiet.sln`: ứng dụng Console.
 - `WindowsForms/DuBaoThoiTiet_WindowsForms.sln`: ứng dụng Windows Forms có giao diện, nút kiểm tra XML và vùng hiển thị kết quả.
 - `SanXuatDienThoai_WindowsForms/SanXuatDienThoai_WindowsForms.sln`: bài sản xuất điện thoại theo đề kiểm tra mới, chạy bằng Windows Forms.
+- `BangGiaXe_WindowsForms/BangGiaXe_WindowsForms.sln`: bài bảng giá xe của đề KTTX1 C2, chạy bằng Windows Forms.
 
 ## Chạy bản Windows Forms
 

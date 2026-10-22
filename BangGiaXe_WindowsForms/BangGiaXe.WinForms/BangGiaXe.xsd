@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="HangXeType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Toyota"/>
+      <xs:enumeration value="Honda"/>
+      <xs:enumeration value="BMW"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="TenDongXeType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value=".*[0-9]{4}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="GiaType">
+    <xs:restriction base="xs:decimal">
+      <xs:minExclusive value="0"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:element name="banggiaxe">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="hangxe" minOccurs="1" maxOccurs="5">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="dongxe" minOccurs="1" maxOccurs="10">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="phienban" type="xs:string"/>
+                    <xs:element name="dongco" type="xs:string"/>
+                    <xs:element name="gia" type="GiaType"/>
+                  </xs:sequence>
+                  <xs:attribute name="ten" type="TenDongXeType" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="ten" type="HangXeType" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

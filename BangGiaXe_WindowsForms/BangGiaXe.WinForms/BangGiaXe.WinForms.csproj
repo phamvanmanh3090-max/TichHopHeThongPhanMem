@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="BangGiaXe.xml" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="BangGiaXe.xsd" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="BangGiaXe.xsl" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="T.png" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="H.png" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="B.png" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>
