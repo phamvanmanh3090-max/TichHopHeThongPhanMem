@@ -6,6 +6,8 @@ Repository có các bài Visual Studio sau:
 - `WindowsForms/DuBaoThoiTiet_WindowsForms.sln`: ứng dụng Windows Forms có giao diện, nút kiểm tra XML và vùng hiển thị kết quả.
 - `SanXuatDienThoai_WindowsForms/SanXuatDienThoai_WindowsForms.sln`: bài sản xuất điện thoại theo đề kiểm tra mới, chạy bằng Windows Forms.
 - `BangGiaXe_WindowsForms/BangGiaXe_WindowsForms.sln`: bài bảng giá xe của đề KTTX1 C2, chạy bằng Windows Forms.
+- `QuanLyThietBi_Android`: ứng dụng Android Java quản lý thiết bị bằng Material 3, RecyclerView và Room Database.
+- `QuanLyThietBi_Android.zip`: file ZIP source Android Studio để tải trực tiếp.
 
 ## Chạy bản Windows Forms
 

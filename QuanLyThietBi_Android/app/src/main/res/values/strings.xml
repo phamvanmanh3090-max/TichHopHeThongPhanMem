@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Quản lý thiết bị</string>
+    <string name="tieu_de">QUẢN LÝ THIẾT BỊ</string>
+    <string name="hint_ten_thiet_bi">Tên thiết bị</string>
+    <string name="hint_nha_san_xuat">Tên nhà sản xuất</string>
+    <string name="them">THÊM</string>
+    <string name="sua">SỬA</string>
+    <string name="cap_nhat">CẬP NHẬT</string>
+    <string name="danh_sach_thiet_bi">Danh sách thiết bị</string>
+    <string name="danh_sach_trong">Chưa có thiết bị nào</string>
+    <string name="nha_san_xuat_format">Nhà sản xuất: %1$s</string>
+    <string name="loi_ten_thiet_bi">Vui lòng nhập tên thiết bị</string>
+    <string name="loi_nha_san_xuat">Vui lòng nhập tên nhà sản xuất</string>
+    <string name="du_lieu_chua_hop_le">Dữ liệu chưa hợp lệ</string>
+    <string name="them_thanh_cong">Đã thêm thiết bị</string>
+    <string name="chon_thiet_bi_truoc">Hãy chọn một thiết bị trong danh sách trước</string>
+    <string name="co_the_chinh_sua">Hãy sửa thông tin rồi nhấn CẬP NHẬT</string>
+    <string name="cap_nhat_thanh_cong">Đã cập nhật thiết bị</string>
+    <string name="khong_tim_thay_thiet_bi">Không tìm thấy thiết bị cần cập nhật</string>
+    <string name="da_chon_thiet_bi">Đã đưa thông tin thiết bị lên vùng nhập liệu</string>
+</resources>
